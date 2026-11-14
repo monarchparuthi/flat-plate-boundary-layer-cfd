@@ -1,0 +1,20 @@
+# environments / caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# large, fully regenerable output (run `python main.py`)
+results/data/velocity_field_*.csv
+
+# editor / OS
+.idea/
+.vscode/
+.DS_Store
+
+# report build intermediates
+*.aux
+*.log
+*.out

@@ -1,0 +1,5 @@
+scheme,time_s,picard_last_change_mps,mean_err_delta99_pct,max_err_delta99_pct,mean_err_delta_star_pct,max_err_delta_star_pct,mean_err_theta_pct,max_err_theta_pct,mean_err_cf_pct,max_err_cf_pct,profile_rmse_mid_pct,profile_emax_mid_pct,u_min,u_over_Uinf_max
+1st-order backward (bdf1),0.0167063,0,2.75584,5.31551,1.44537,2.35648,1.38467,2.22055,0.937877,1.19137,0.145309,0.670687,0,1
+2nd-order backward (bdf2),0.0203016,0,1.61686,3.22754,0.63098,1.01389,0.446781,0.60904,0.245398,0.268711,0.0545331,0.256466,0,1
+bdf1 + 3 Picard sweeps,0.0579805,0.151486,2.59987,5.09083,1.27381,2.10815,1.21795,1.97708,0.763325,0.943148,0.125682,0.578553,0,1
+bdf2 + 3 Picard sweeps,0.0616792,0.151486,1.65295,3.30528,0.670571,1.10033,0.485262,0.691872,0.286205,0.310956,0.0587804,0.272313,0,1

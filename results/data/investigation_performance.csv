@@ -1,0 +1,7 @@
+mesh,Nx,Ny,grid_points,linear_solver,time_s,peak_memory_MB,stations_marched,tridiagonal_solves
+coarse,101,51,5151,thomas,0.0082084,0.095059,100,100
+coarse,101,51,5151,banded,0.0043343,0.097453,100,100
+medium,201,101,20301,thomas,0.0242617,0.346659,200,200
+medium,201,101,20301,banded,0.0090462,0.350156,200,200
+fine,401,201,80601,thomas,0.102457,1.32989,400,400
+fine,401,201,80601,banded,0.0202508,1.33579,400,400

@@ -1,0 +1,12 @@
+# Tool configuration only: the code is a set of flat top-level modules run via
+# `python main.py`, so there is deliberately no [project]/packaging section.
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 110
+extend-exclude = [".venv"]
+
+[tool.ruff.lint]
+select = ["F", "E9"]

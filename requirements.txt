@@ -1,0 +1,7 @@
+# numpy >= 2.0 is required (np.trapezoid); Python >= 3.10
+numpy>=2.0
+scipy>=1.11
+matplotlib>=3.8
+pandas>=2.1
+pytest>=8.0
+ruff>=0.6

@@ -1,0 +1,5 @@
+quantity,monotone,order,order_plausible,f_extrapolated,gci_fine_pct
+rmse_mid_pct,True,2.86166,True,0.139214,5.2433
+delta99_TE_m,True,1.27707,True,0.00596279,2.22406
+cf_TE,True,6.93954,False,0.000801487,0.000299995
+delta_star_TE_m,False,,False,,
